@@ -1,4 +1,28 @@
 <resources>
     <string name="app_name">TopacAdemy_android</string>
-    <string name="name">Artur</string>
+    <string name="calc">Калькулятор</string>
+    <string name="list">Список</string>
+    <string name="weather">Погода</string>
+
+    <string name="titleBtnClear">AC</string>
+    <string name="titleBtnBackspace">←</string>
+    <string name="titleBtnPercent">%</string>
+    <string name="titleBtnDivide">/</string>
+    <string name="titleBtnMultiply">*</string>
+    <string name="titleBtnMinus">-</string>
+    <string name="titleBtnPlus">+</string>
+    <string name="titleBtnEqual">=</string>
+    <string name="titleBtnDot">.</string>
+    <string name="titleBtnOne">1</string>
+    <string name="titleBtnTwo">2</string>
+    <string name="titleBtnThree">3</string>
+    <string name="titleBtnFour">4</string>
+    <string name="titleBtnFive">5</string>
+    <string name="titleBtnSix">6</string>
+    <string name="titleBtnSeven">7</string>
+    <string name="titleBtnEight">8</string>
+    <string name="titleBtnNine">9</string>
+    <string name="titleBtnZero">0</string>
+
+    <string name="goToHome">Перейти домой</string>
 </resources>

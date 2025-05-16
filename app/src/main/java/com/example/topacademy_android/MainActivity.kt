@@ -1,7 +1,9 @@
 package com.example.topacademy_android
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.topacademy_android.databinding.ActivityMainBinding
 
@@ -17,6 +19,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val button = findViewById<Button>(R.id.btnStart)
+        button.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+        }
 
         Log.i(ON_CREATE, "Активити создана!")
     }
