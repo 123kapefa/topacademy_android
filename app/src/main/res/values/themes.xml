@@ -1,9 +1,61 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.TopacAdemy_android" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TopacAdemy_android" parent="Base.Theme.TopacAdemy_android" />
+
+    <style name="Base.Theme.TopacAdemy_android" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/onBackground</item>
+
+        <item name="materialButtonStyle">@style/Widget.Button</item>
+        <item name="android:textViewStyle">@style/Widget.TextView</item>
+        <item name="textInputStyle">@style/Widget.TextInputLayout</item>
+
     </style>
 
-    <style name="Theme.TopacAdemy_android" parent="Base.Theme.TopacAdemy_android" />
+    <!--    Button Style-->
+    <style name="Widget.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">4dp</item>
+        <item name="android:textColor">@color/onPrimary</item>
+        <item name="backgroundTint">@color/btnBg</item>
+    </style>
+
+    <style name="Widget.ButtonLink" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">4dp</item>
+        <item name="strokeColor">@color/textLink</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:textColor">@color/textLink</item>
+    </style>
+
+<!--    TextView Style-->
+    <style name="Widget.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/textFg</item>
+    </style>
+
+<!--    EditTextView Style-->
+    <style name="Widget.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+
+        <item name="boxBackgroundColor">@color/background</item>
+
+        <item name="boxStrokeColor">@color/onBackground</item>
+        <item name="backgroundTint">@color/background</item>
+        <item name="hintTextColor">@color/onBackground</item>
+        <item name="android:textColorHint">@color/textLink</item>
+
+    </style>
+
+
+
+
+
 </resources>

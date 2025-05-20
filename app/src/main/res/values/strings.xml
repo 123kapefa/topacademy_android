@@ -4,25 +4,15 @@
     <string name="list">Список</string>
     <string name="weather">Погода</string>
 
-    <string name="titleBtnClear">AC</string>
-    <string name="titleBtnBackspace">←</string>
-    <string name="titleBtnPercent">%</string>
-    <string name="titleBtnDivide">/</string>
-    <string name="titleBtnMultiply">*</string>
-    <string name="titleBtnMinus">-</string>
-    <string name="titleBtnPlus">+</string>
-    <string name="titleBtnEqual">=</string>
-    <string name="titleBtnDot">.</string>
-    <string name="titleBtnOne">1</string>
-    <string name="titleBtnTwo">2</string>
-    <string name="titleBtnThree">3</string>
-    <string name="titleBtnFour">4</string>
-    <string name="titleBtnFive">5</string>
-    <string name="titleBtnSix">6</string>
-    <string name="titleBtnSeven">7</string>
-    <string name="titleBtnEight">8</string>
-    <string name="titleBtnNine">9</string>
-    <string name="titleBtnZero">0</string>
+    <!--  Home Activity  -->
+    <string name="title">Login</string>
+    <string name="titleEmailEditView">Email</string>
+    <string name="titlePasswordEditView">Password</string>
+    <string name="titleLoginButton">Log in</string>
+    <string name="titleMoreLoginOptions">Or continue with</string>
+    <string name="titleGoogleButton">Google</string>
+    <string name="titleFacebookButton">Facebook</string>
+    <string name="titleRegisterLink">Don`t have account?</string>
+    <string name="titleRegisterButton">Create Now</string>
 
-    <string name="goToHome">Перейти домой</string>
 </resources>

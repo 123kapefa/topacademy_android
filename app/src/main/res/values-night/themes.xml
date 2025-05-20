@@ -1,7 +1,58 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TopacAdemy_android" parent="Base.Theme.TopacAdemy_android" />
+
     <style name="Base.Theme.TopacAdemy_android" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/onBackground</item>
+
+        <item name="materialButtonStyle">@style/Widget.ButtonLogin</item>
+        <item name="android:textViewStyle">@style/Widget.TextView</item>
+        <item name="textInputStyle">@style/Widget.TextInputLayout</item>
+    </style>
+
+
+    <style name="Widget.ButtonLogin" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">4dp</item>
+        <item name="backgroundTint">@color/btnBg</item>
+        <item name="android:textColor">@color/onBackground</item>
+    </style>
+
+    <style name="Widget.ButtonLink" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">4dp</item>
+        <item name="strokeColor">@color/btnBg</item>
+        <item name="strokeWidth">1dp</item>
+
+
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:textColor">@color/btnBg</item>
+    </style>
+
+    <style name="Widget.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/textFg</item>
+    </style>
+
+    <!--    EditTextView Style-->
+    <style name="Widget.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+
+        <item name="boxBackgroundColor">@color/background</item>
+
+        <item name="boxStrokeColor">@color/onBackground</item>
+
+        <item name="hintTextColor">@color/onBackground</item>
+        <item name="android:textColorHint">@color/textLink</item>
+
+    </style>
+
+    <style name="Widget.EditText" parent="Widget.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="android:textColor">@color/onBackground</item>
+        <item name="android:textSize">16sp</item>
     </style>
 </resources>
