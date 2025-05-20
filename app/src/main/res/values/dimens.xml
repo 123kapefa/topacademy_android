@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Отступы -->
+    <dimen name="padding_screen">32dp</dimen>
+    <dimen name="margin_top_title">150dp</dimen>
+    <dimen name="margin_bottom_title">48dp</dimen>
+    <dimen name="margin_top_button">24dp</dimen>
+    <dimen name="margin_between_social_buttons">16dp</dimen>
+    <dimen name="margin_top_link">32dp</dimen>
+    <dimen name="margin_bottom_link">20dp</dimen>
+    <dimen name="margin_top_register">32dp</dimen>
+    <dimen name="margin_bottom_register">32dp</dimen>
+    <dimen name="margin_between_register_texts">8dp</dimen>
+
+    <!-- Высоты -->
+    <dimen name="height_button">56dp</dimen>
+    <dimen name="height_title">48dp</dimen>
+    <dimen name="height_link_text">18dp</dimen>
+
+    <!-- Ширины -->
+    <dimen name="width_social_button">150dp</dimen>
+
+    <!-- Текст -->
+    <dimen name="text_size_title">36sp</dimen>
+    <dimen name="text_size_button">18sp</dimen>
+    <dimen name="text_size_link">16sp</dimen>
+
+    <!-- Иконки -->
+    <dimen name="icon_padding">8dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+</resources>
