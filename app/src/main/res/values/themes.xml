@@ -55,7 +55,13 @@
     </style>
 
 
-
+    <style name="Widget.ToolBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/btnBg</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="titleTextColor">@color/textFg</item>
+        <!--        <item name="background">?attr/p</item>-->
+    </style>
 
 
 </resources>

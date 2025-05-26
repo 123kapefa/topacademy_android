@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        style="@style/Widget.ToolBar"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+
+    <ImageView
+        android:id="@+id/ivCarDetail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="@dimen/margin_between_register_texts" />
+
+    <TextView
+        android:id="@+id/tvBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titleCarBrand"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_link" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleCarModel"
+            android:textSize="@dimen/text_size_link"/>
+
+        <TextView
+            android:id="@+id/tvYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleCarDetailYear"
+            android:textSize="@dimen/text_size_link"/>
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleCarDetailDescription"
+            android:textSize="@dimen/text_size_link"/>
+
+        <TextView
+            android:id="@+id/tvCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleCarDetailCost"
+            android:textColor="@color/darkGreen"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_link"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titleCarDetailButtonBuy" />
+</LinearLayout>

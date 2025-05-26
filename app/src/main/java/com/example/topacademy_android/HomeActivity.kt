@@ -1,7 +1,10 @@
 package com.example.topacademy_android
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.topacademy_android.cars.CarListActivity
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,11 +14,11 @@ class HomeActivity : AppCompatActivity() {
 //        findViewById<Button>(R.id.btnCalc).setOnClickListener {
 //            startActivity(Intent(this, CalculatorActivity::class.java))
 //        }
-//
-//        findViewById<Button>(R.id.btnList).setOnClickListener {
-//            startActivity(Intent(this, ListActivity::class.java))
-//        }
-//
+
+        findViewById<Button>(R.id.btnList).setOnClickListener {
+            startActivity(Intent(this, CarListActivity::class.java))
+        }
+
 //        findViewById<Button>(R.id.btnWeather).setOnClickListener {
 //            startActivity(Intent(this, WeatherActivity::class.java))
 //        }

@@ -15,4 +15,18 @@
     <string name="titleRegisterLink">Don`t have account?</string>
     <string name="titleRegisterButton">Create Now</string>
 
+    <!--  Car List Activity  -->
+    <string name="titleToolbarCarList">Список автомобилей</string>
+
+    <!--  Car Item Activity  -->
+    <string name="titleCarBrand">Бренд</string>
+    <string name="titleCarModel">Модель</string>
+    <string name="titleButtonCarDetails">Подробнее</string>
+
+    <!--  Car Detail Activity  -->
+    <string name="titleCarDetailYear">Год выпуска</string>
+    <string name="titleCarDetailDescription">Описание</string>
+    <string name="titleCarDetailCost">Стоимость</string>
+    <string name="titleCarDetailButtonBuy">Купить</string>
+
 </resources>
