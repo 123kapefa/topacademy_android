@@ -12,6 +12,7 @@
         <item name="materialButtonStyle">@style/Widget.ButtonLogin</item>
         <item name="android:textViewStyle">@style/Widget.TextView</item>
         <item name="textInputStyle">@style/Widget.TextInputLayout</item>
+        <item name="android:toolbarStyle">@style/Widget.ToolBar</item>
     </style>
 
 
@@ -54,5 +55,14 @@
     <style name="Widget.EditText" parent="Widget.MaterialComponents.TextInputEditText.FilledBox">
         <item name="android:textColor">@color/onBackground</item>
         <item name="android:textSize">16sp</item>
+    </style>
+
+
+
+    <style name="Widget.ToolBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/btnBg</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="titleTextColor">@color/textLink</item>
     </style>
 </resources>

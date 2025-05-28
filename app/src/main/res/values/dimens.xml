@@ -28,4 +28,8 @@
     <!-- Иконки -->
     <dimen name="icon_padding">8dp</dimen>
     <dimen name="icon_size">24dp</dimen>
+
+    <!-- Car Item Activity -->
+    <dimen name="image_height">180dp</dimen>
+
 </resources>
