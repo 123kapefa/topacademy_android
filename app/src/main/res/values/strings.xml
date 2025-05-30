@@ -29,4 +29,17 @@
     <string name="titleCarDetailCost">Стоимость</string>
     <string name="titleCarDetailButtonBuy">Купить</string>
 
+    <!-- Weather Activity -->
+
+
+
+    <!-- Weather Card Item -->
+
+    <string name="titleWeatherCartItemDate">2025.05.28</string>
+    <string name="titleWeatherCartItemIcon">Weather Icon</string>
+    <string name="titleWeatherCartItemTemp">25°C</string>
+    <string name="titleWeatherCartItemDescription">Sunny</string>
+
+    <!-- -->
+
 </resources>

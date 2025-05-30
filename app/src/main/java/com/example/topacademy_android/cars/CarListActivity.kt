@@ -57,10 +57,10 @@ class CarListActivity : AppCompatActivity() {
     private fun setupToolbar() {
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-    }
+        supportActionBar?.setDisplayShowHomeEnabled(true)
 
-    override fun onSupportNavigateUp(): Boolean {
-        finish()
-        return true
+        binding.toolbar.setNavigationOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
+        }
     }
 }
