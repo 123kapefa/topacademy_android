@@ -6,6 +6,7 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.topacademy_android.calculator.presentation.CalculatorActivity
 import com.example.topacademy_android.cars.CarListActivity
+import com.example.topacademy_android.weather.presentation.WeatherActivity
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,8 +21,8 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, CarListActivity::class.java))
         }
 
-//        findViewById<Button>(R.id.btnWeather).setOnClickListener {
-//            startActivity(Intent(this, WeatherActivity::class.java))
-//        }
+        findViewById<Button>(R.id.btnWeather).setOnClickListener {
+            startActivity(Intent(this, WeatherActivity::class.java))
+        }
     }
 }

@@ -51,6 +51,12 @@
     <string name="titleButtonEight">8</string>
     <string name="titleButtonNine">9</string>
 
+    <!-- Weather Card Item -->
+
+    <string name="titleWeatherCartItemDate">2025.05.28</string>
+    <string name="titleWeatherCartItemIcon">Weather Icon</string>
+    <string name="titleWeatherCartItemTemp">25°C</string>
+    <string name="titleWeatherCartItemDescription">Sunny</string>
 
 
 </resources>
