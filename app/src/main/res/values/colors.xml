@@ -13,6 +13,15 @@
     <color name="textFg">#1E293B</color>
     <color name="btnBg">#000113</color>
     <color name="input_background">#000113</color>
-    <color name="textLink">#64748B</color>
+    <color name="textLink">#3A4150</color>
+    <color name="textLinkBold">#2C333A</color>
     <color name="darkGreen">#002309</color>
+
+    <!-- Weather Colors -->
+
+    <color name="sunnyBackground">#FFF59D</color>
+    <color name="rainBackground">#B3E5FC</color>
+    <color name="cloudyBackground">#CFD8DC</color>
+
+
 </resources>
