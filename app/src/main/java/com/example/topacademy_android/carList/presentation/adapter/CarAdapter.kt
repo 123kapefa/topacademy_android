@@ -1,9 +1,10 @@
-package com.example.topacademy_android.cars
+package com.example.topacademy_android.carList.presentation.adapter
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.topacademy_android.databinding.ItemCarBinding
 import android.view.LayoutInflater
+import com.example.topacademy_android.carList.domain.model.Car
 
 class CarAdapter(
     private val items: List<Car>,
@@ -23,9 +24,7 @@ class CarAdapter(
             tvBrand.text = item.brand
             tvModel.text = item.model
             ivCar.setImageResource(item.imageResId)
-            btnDetails.setOnClickListener {
-                onDetailsClick(item)
-            }
+            btnDetails.setOnClickListener { onDetailsClick(item) }
         }
     }
 

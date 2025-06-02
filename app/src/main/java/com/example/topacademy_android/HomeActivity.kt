@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.topacademy_android.calculator.presentation.CalculatorActivity
-import com.example.topacademy_android.cars.CarListActivity
+import com.example.topacademy_android.carList.presentation.CarListActivity
 import com.example.topacademy_android.weather.presentation.WeatherActivity
 
 class HomeActivity : AppCompatActivity() {
