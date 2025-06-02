@@ -26,6 +26,7 @@
         <activity android:name=".HomeActivity" />
         <activity android:name=".cars.CarListActivity" />
         <activity android:name=".cars.CarDetailActivity" />
+        <activity android:name=".calculator.presentation.CalculatorActivity" />
         <activity android:name=".weather.presentation.WeatherActivity" />
 
 
