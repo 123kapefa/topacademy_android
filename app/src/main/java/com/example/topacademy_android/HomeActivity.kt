@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.topacademy_android.calculator.presentation.CalculatorActivity
 import com.example.topacademy_android.cars.CarListActivity
 
 class HomeActivity : AppCompatActivity() {
@@ -11,9 +12,9 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-//        findViewById<Button>(R.id.btnCalc).setOnClickListener {
-//            startActivity(Intent(this, CalculatorActivity::class.java))
-//        }
+        findViewById<Button>(R.id.btnCalc).setOnClickListener {
+            startActivity(Intent(this, CalculatorActivity::class.java))
+        }
 
         findViewById<Button>(R.id.btnList).setOnClickListener {
             startActivity(Intent(this, CarListActivity::class.java))
