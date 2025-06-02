@@ -1,4 +1,4 @@
-package com.example.topacademy_android.cars
+package com.example.topacademy_android.carList.presentation
 
 import android.os.Bundle
 import android.widget.ImageView

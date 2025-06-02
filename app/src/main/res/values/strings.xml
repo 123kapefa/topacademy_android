@@ -29,4 +29,34 @@
     <string name="titleCarDetailCost">Стоимость</string>
     <string name="titleCarDetailButtonBuy">Купить</string>
 
+    <!-- Calculator Activity -->
+    <string name="titleButtonClear">C</string>
+    <string name="titleButtonBackspace">←</string>
+    <string name="titleButtonPercent">%</string>
+    <string name="titleButtonPlus">+</string>
+    <string name="titleButtonMinus">-</string>
+    <string name="titleButtonMultiply">*</string>
+    <string name="titleButtonDivide">/</string>
+    <string name="titleButtonDot">.</string>
+    <string name="titleButtonEqual">=</string>
+
+    <string name="titleButtonZero">0</string>
+    <string name="titleButtonOne">1</string>
+    <string name="titleButtonTwo">2</string>
+    <string name="titleButtonThree">3</string>
+    <string name="titleButtonFour">4</string>
+    <string name="titleButtonFive">5</string>
+    <string name="titleButtonSix">6</string>
+    <string name="titleButtonSeven">7</string>
+    <string name="titleButtonEight">8</string>
+    <string name="titleButtonNine">9</string>
+
+    <!-- Weather Card Item -->
+
+    <string name="titleWeatherCartItemDate">2025.05.28</string>
+    <string name="titleWeatherCartItemIcon">Weather Icon</string>
+    <string name="titleWeatherCartItemTemp">25°C</string>
+    <string name="titleWeatherCartItemDescription">Sunny</string>
+
+
 </resources>

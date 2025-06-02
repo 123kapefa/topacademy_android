@@ -8,7 +8,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:padding="24dp">
+        android:padding="@dimen/padding_24">
 
         <Button
             android:id="@+id/btnCalc"
@@ -21,14 +21,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/list"
-            android:layout_marginTop="16dp" />
+            android:layout_marginTop="@dimen/margin_16" />
 
         <Button
             android:id="@+id/btnWeather"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/weather"
-            android:layout_marginTop="16dp" />
+            android:layout_marginTop="@dimen/margin_16" />
     </LinearLayout>
 
 
