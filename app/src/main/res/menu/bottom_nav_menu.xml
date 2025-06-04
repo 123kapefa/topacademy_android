@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/calculatorFragment"
-        android:title="Калькулятор"
+        android:title="@string/titleCalculator"
         android:icon="@drawable/ic_calculator"/>
     <item
         android:id="@+id/carListFragment"
-        android:title="Авто"
+        android:title="@string/titleCarList"
         android:icon="@drawable/ic_car_list"/>
     <item
         android:id="@+id/weatherFragment"
-        android:title="Погода"
+        android:title="@string/titleWeather"
         android:icon="@drawable/ic_weather"/>
 </menu>
