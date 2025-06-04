@@ -11,7 +11,6 @@
         app:title="@string/titleToolbarCarList"
         app:navigationIcon="@drawable/arrow_left"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
         app:layout_scrollFlags="scroll|enterAlways"
         android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
 

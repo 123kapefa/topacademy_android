@@ -37,10 +37,12 @@ class WeatherActivity : AppCompatActivity() {
 
         viewModel.loadForecast(55.7558, 37.6173)
 
+        setupToolbar()
+    }
+
+    private fun setupToolbar() {
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.setDisplayShowHomeEnabled(true)
-
         binding.toolbar.setNavigationOnClickListener {
             onBackPressedDispatcher.onBackPressed()
         }

@@ -1,9 +1,10 @@
-package com.example.topacademy_android
+package com.example.topacademy_android.app
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.topacademy_android.R
 import com.example.topacademy_android.calculator.presentation.CalculatorActivity
 import com.example.topacademy_android.carList.presentation.CarListActivity
 import com.example.topacademy_android.weather.presentation.WeatherActivity
