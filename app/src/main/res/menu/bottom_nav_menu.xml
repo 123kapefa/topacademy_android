@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_calculator"
+        android:title="Калькулятор" />
+    <item
+        android:id="@+id/nav_cars"
+        android:title="Авто" />
+    <item
+        android:id="@+id/nav_weather"
+        android:title="Погода" />
+</menu>
