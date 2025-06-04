@@ -3,11 +3,12 @@ package com.example.topacademy_android.calculator.presentation
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.topacademy_android.databinding.ActivityCalculatorBinding
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class CalculatorActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityCalculatorBinding
-    private val viewModel = CalculatorViewModel()
+    private val viewModel: CalculatorViewModel by viewModel()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,6 +26,7 @@ class CalculatorActivity : AppCompatActivity() {
         }
 
         setListeners()
+        setupToolbar()
     }
 
     private fun setListeners() {
@@ -49,5 +51,13 @@ class CalculatorActivity : AppCompatActivity() {
         binding.btnClear.setOnClickListener { viewModel.clear() }
         binding.btnBackspace.setOnClickListener { viewModel.deleteLast() }
         binding.btnEqual.setOnClickListener { viewModel.evaluate() }
+    }
+
+    private fun setupToolbar() {
+        setSupportActionBar(binding.toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        binding.toolbar.setNavigationOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
+        }
     }
 }

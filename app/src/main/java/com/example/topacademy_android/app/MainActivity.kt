@@ -1,4 +1,4 @@
-package com.example.topacademy_android
+package com.example.topacademy_android.app
 
 import android.content.Intent
 import android.os.Bundle
