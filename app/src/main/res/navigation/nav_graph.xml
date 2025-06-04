@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.topacademy_android.login.presentation.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_calculator"
+            app:destination="@id/calculatorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/calculatorFragment"
+        android:name="com.example.topacademy_android.calculator.presentation.CalculatorFragment"
+        android:label="Calculator"
+        >
+    </fragment>
+
+    <fragment
+        android:id="@+id/carListFragment"
+        android:name="com.example.topacademy_android.carList.presentation.CarListFragment"
+        android:label="Car List">
+        <action
+            android:id="@+id/action_carList_to_carDetail"
+            app:destination="@id/carDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/carDetailFragment"
+        android:name="com.example.topacademy_android.carList.presentation.CarDetailFragment"
+        android:label="Car Detail">
+        <action
+            android:id="@+id/action_carDetail_to_carList"
+            app:destination="@id/carListFragment" />
+
+        <argument
+            android:name="carBrand"
+            app:argType="string" />
+        <argument
+            android:name="carModel"
+            app:argType="string" />
+        <argument
+            android:name="carYear"
+            app:argType="integer" />
+        <argument
+            android:name="carDescription"
+            app:argType="string" />
+        <argument
+            android:name="carCost"
+            app:argType="integer" />
+        <argument
+            android:name="carImage"
+            app:argType="integer" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.example.topacademy_android.weather.presentation.WeatherFragment"
+        android:label="Weather">
+
+    </fragment>
+
+</navigation>
