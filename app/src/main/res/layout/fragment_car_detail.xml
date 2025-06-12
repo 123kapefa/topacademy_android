@@ -2,6 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_container"
     android:orientation="vertical"
     android:padding="@dimen/padding_16"
     android:layout_width="match_parent"
@@ -10,7 +11,7 @@
     <androidx.appcompat.widget.Toolbar
         style="@style/Widget.ToolBar"
         android:id="@+id/toolbar"
-        app:title="@string/calc"
+        app:title="@string/titleCarList"
         app:navigationIcon="@drawable/arrow_left"
         android:layout_width="match_parent"
         app:layout_scrollFlags="scroll|enterAlways"

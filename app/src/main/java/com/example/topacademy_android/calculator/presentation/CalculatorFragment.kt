@@ -5,14 +5,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import com.example.topacademy_android.databinding.FragmentCalculatorBinding
+import com.example.topacademy_android.R
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class CalculatorFragment : Fragment() {
+class CalculatorFragment : Fragment(R.layout.fragment_calculator) {
 
     private var _binding: FragmentCalculatorBinding? = null
     private val binding get() = _binding!!
-    private lateinit var viewModel: CalculatorViewModel
+    private val viewModel: CalculatorViewModel by viewModel()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -24,8 +25,6 @@ class CalculatorFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        viewModel = ViewModelProvider(this)[CalculatorViewModel::class.java]
 
         viewModel.uiState.observe(viewLifecycleOwner) { state ->
             if (state.isCalculated) {

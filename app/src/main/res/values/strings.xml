@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">TopacAdemy_android</string>
-    <string name="calc">Калькулятор</string>
-    <string name="list">Список</string>
-    <string name="weather">Погода</string>
+    <string name="titleCalculator">Калькулятор</string>
+    <string name="titleCarList">Список</string>
+    <string name="titleWeather">Погода</string>
 
     <!--  Home Activity  -->
     <string name="title">Login</string>
