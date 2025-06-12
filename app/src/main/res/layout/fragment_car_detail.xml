@@ -11,7 +11,7 @@
     <androidx.appcompat.widget.Toolbar
         style="@style/Widget.ToolBar"
         android:id="@+id/toolbar"
-        app:title="@string/calc"
+        app:title="@string/titleCarList"
         app:navigationIcon="@drawable/arrow_left"
         android:layout_width="match_parent"
         app:layout_scrollFlags="scroll|enterAlways"
